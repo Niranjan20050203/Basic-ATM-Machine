@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #20432b, #64312c);
+    font-family: Arial, sans-serif;
+}
+
+.atm {
+    width: 360px;
+    background: #1c3b51;
+    border-radius: 30px;
+    padding: 35px;
+    box-shadow: 0 0 30px rgba(172, 164, 164, 0.8);
+}
+
+.atm h1 {
+    text-align: center;
+    color: #00e6e6;
+    margin-bottom: 20px;
+}
+
+.screen {
+    background: #cde7e7;
+    height: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+.screen p {
+    margin: 5px 0;
+}
+
+.inputs input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.buttons button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #00e6e6;
+    color: #000;
+    transition: 0.2s;
+}
+
+.buttons button:hover {
+    background: #00b3b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    color: #aaa;
+    font-size: 12px;
+}
